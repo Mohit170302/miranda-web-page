@@ -1,0 +1,644 @@
+@font-face {
+    font-family: domain;
+    src: url(./domain.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+  
+   
+}
+.main{
+    background-color:#222;
+    overflow-x: hidden;
+    position: relative;
+   
+}
+
+.pg1{
+    height: 140vh;
+    width: 100vw;
+    background-color:#c4bcb3;
+    position: relative;
+    overflow: hidden;
+    
+}
+.nav{
+    height: 90px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+   
+      
+}
+
+.nav img{
+    height: 25px;
+    width: 30%;
+
+}
+.nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+
+}
+.nav i{
+    font-size: 25px;
+    font-weight: 20;
+    width: 30%;
+    text-align: right;
+
+}
+
+.ele{
+   
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+    
+   
+}
+.ele1{
+    width: 30%;
+    height: 100%;
+    
+}
+.ele2{
+    width: 30%;
+    height: 100%;
+    padding: 20px 50px;
+    text-align: center;
+    border-left: 1.5px solid #a6a6a6;
+    border-right: 1.5px solid #a6a6a6;
+}
+.ele3{
+    width: 30%;
+    height: 100%;
+   
+}
+
+.image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.4s;
+}
+.ele1 .image-div{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+ }
+
+ .ele3 .image-div{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+ }
+
+ .image-div:hover img{
+    scale: 1.1;
+}
+.ele1 h4{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: canopee;
+}
+.ele1 h4 span{
+    background-color:#b44b12;
+    color: #c4bcb3;
+    font-weight:100 ;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 10px;
+}
+.ele1 p{
+    font-size: 16px;
+   font-family: domain;
+   font-weight: 100px;
+   color:#595757 ;
+}
+
+.ele3 h4{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: canopee;
+}
+.ele3 h4 span{
+    background-color:#b44b12;
+    color: #c4bcb3;
+    font-weight:100 ;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 10px;
+}
+.ele3 p{
+    font-size: 16px;
+   font-family: domain;
+   font-weight: 100px;
+   color:#595757 ;
+}
+
+.ele2 h2{
+    font-family: canopee;
+    font-size: 52px;
+    font-weight: 100;
+
+}
+.ele2 h3{
+    font-family: domain;
+    font-size: 25px;
+    font-weight: 5;
+    color: #272727;
+
+}
+.ele2 h6{
+    font-size: 15px;
+    color: #272727;
+    font-family: domain;
+    
+}
+.pg1 h1{
+    font-size: 467px;
+    font-family: canopee;
+    font-weight: 100;
+    background-color: #1c1c19;
+    color: #c4bcb3;
+    line-height: 370px;
+    width: 96%;
+    margin-left:2% ;
+    letter-spacing: -20px;
+}
+.pg2{
+    height: 140vh;
+    width: 100%;
+    background-color: #c4bcb3;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+.pg2-left{
+    height: 100%;
+    width: 38%;
+   padding-right: 60px;
+   border-right: 1.5px solid #828181;
+}
+.pg2-left h2{
+    font-size: 95px;
+    font-family: canopee;
+    
+    line-height: 90px;
+    font-weight: 550;
+}
+.pg2-left h2 span{
+    font-size: 130px;
+    font-weight: 700;
+}
+.pg2-left img{
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.pg2-left p{
+    font-size: 25px;
+    font-family: domain;
+    color: #2f2f2f;
+    
+
+}
+.pg2-left p span{
+    font-size: 70px;
+    font-weight: 90;
+    padding: 0 5px;
+    font-family: canopee;
+    color: #c4bcb3;
+    background-color: #272727;
+}
+.pg2-right{
+    height: 100%;
+    width: 60%;
+    padding: 0 10px;
+   
+    
+}
+.pg2-right img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.pg2-right h1{
+    font-size: 72px;
+    font-family: canopee;
+    font-weight: 100;
+}
+.pg3{
+   
+   position: relative;
+    background-color: #c4bcb3;
+}
+.pg3 h1{
+    font-size: 350px;
+    background-color: #1c1c19;
+    color: #c4bcb3;
+    font-family: canopee;
+    width: 70%;
+    font-weight: 100;
+    letter-spacing: -10;
+    width: fit-content;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 300px;
+}
+.pg3 img{
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right:1.5%;
+
+}
+.pg4{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #c4bcb3;
+    padding: 20px 0;
+
+}
+.pg4-left {
+    width: 60%;
+    height: 100%;
+    padding: 70px 10px;
+    margin-right: 5px;
+
+}
+.pg4-left-con{
+    height: 30%;
+    width: 100%;
+   
+    padding: 100px 0px;
+    margin-top:-40px ;
+    display: flex;
+    align-items: center;
+    
+    font-family: domain;
+    margin-bottom: 30px;
+
+}
+.p4c2{
+    width: 70%;
+   border-left: 1px solid #949494;
+
+    
+}
+.p4c2 .image-div{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: 30px;
+}
+.p4c2 h3{
+    margin-left: 30px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+.p4c1{
+    font-size: 30px;
+    margin-top: -20px;
+}
+.p4c1 h1{
+    font-weight: 400;
+}
+.p4c1 p{
+    font-weight: 200;
+    color: #272727;
+}
+.p4c1 h6{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: domain;
+    color: #222;
+
+}
+
+.p4c2 p{
+    margin-left: 30px;
+    font-size: 18px;
+    color: #272727;
+
+}
+.pg4-left img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+.pg4-right{
+    width: 40%;
+    height: 100%;
+    padding: 1px 30px;
+    border-left: 1.5px solid #949494;
+}
+.pg4-right h3{
+    font-size: 90px;
+    font-family: canopee;
+    font-weight: 500;
+    
+
+}
+.pg4-right h1{
+    font-size: 180px;
+    font-family: canopee;
+    font-weight:650 ;
+    margin-top: -40px;
+    letter-spacing: 5px;
+  
+    
+
+}
+.pg4-right p{
+    font-size: 23px;
+    line-height: 38px;
+    font-weight: 10;
+    letter-spacing: -1px;
+    color: #272727;
+   
+}
+.pg4-right .cir{
+    height: 150px;
+    width: 70%;
+    background-color: #cac1b6;
+    border: 1px solid #2f2f2f;
+     border-radius: 50%;
+     margin: 20px 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: nowrap;
+     overflow: hidden;
+    
+}
+.cir h4{
+    font-size: 50px;
+    font-family: canopee;
+     font-weight: 80;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transform: translateX(-20%);
+     transition: all ease 0.6s;
+}
+.cir img{
+    height: 35px;
+    transition: all ease 0.6s;
+    transform: translateX(-120%);
+  
+
+}
+.cir:hover img{
+    transform: translateX(78%);
+}
+.cir:hover h4{
+    transform: translateX(100%);
+}
+.pg5{
+   
+    padding: 20px 0;
+    width: 100%;
+    background-color:#c4bcb3;
+    white-space:nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1.4px solid #2f2f2f;
+   
+}
+.pg5::-webkit-scrollbar{
+    display: none;
+}
+.pg5 h1{
+    font-family: domain;
+    font-size: 70px;
+    letter-spacing:-1px;
+    font-weight: 1;
+    color: #212121;
+    display:inline-block;
+    animation-timing-function: linear; 
+    margin-right: 10px;
+    animation-name: scrol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   
+  
+}
+.pg5 h1 span{
+    font-family: canopee;
+    background-color: #2f2f2f;
+    color: #c4bcb3;
+    padding: 0 4px;
+}
+.pg6{
+    background-color: #c4bcb3;
+}
+.ele21{
+    width: 30%;
+    height: 100%;
+    padding: 20px 50px;
+    text-align: center;
+    border-left: 1.5px solid #a6a6a6;
+    border-right: 1.5px solid #a6a6a6;
+}
+.ele21 h2{
+    font-family: canopee;
+    font-size: 66px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-top: -29px;
+
+}
+.ele21 h3{
+    font-family: domain;
+    font-size: 30px;
+  
+    color: #272727;
+    font-weight: 80;
+
+}
+.ele21 h6{
+    font-size: 20px;
+    color:#1c1c19;
+    font-family: domain;
+    margin-top: 20px;
+    font-weight: 50;
+  
+    
+}
+.pg7{
+    height: 100px;
+    width: 100%;
+    background-color: #c4bcb3;
+    display: flex;
+    align-items:end;
+    justify-content: end;
+}
+.pg7 div{
+    padding-left: 15px;
+    margin-bottom: 30px;
+    font-family: domain;
+    margin-right: 20px;
+    color: #1d1d1b;
+    font-size: 20px;
+    font-weight: 200;
+}
+.pg8{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.pg8-left{
+    width: 48%;
+    height: 100%;
+}
+.pg8-l1{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #c4bcb3;
+   
+    
+}
+.pg8-l11 img{
+    width: 220px;
+    height: 330px;
+    margin-top: 100px;
+    object-fit:cover;
+    margin-left: 10px;
+    border: 1px solid black;
+
+  
+   
+    
+}
+.pg8-l12 h2{
+    font-size: 390px;
+    font-family:canopee;
+    font-weight: 1;
+    letter-spacing: -17px;
+    margin-right: 50px;
+    margin-top: 110px;
+    transform: scale(1,1.2);
+    color: #1d1d1b;
+
+}
+
+.pg8-l2{
+   background-color: #c4bcb3;
+    height:65%;
+    width: 100%;
+    display:flex;
+    align-items:last baseline;
+    justify-content: center;   
+}
+.pg8-l2 h1{
+   font-family: canopee;
+   font-size: 350px;
+   font-weight: 1;
+   letter-spacing: -18px;
+   margin-bottom: -39px;
+   color: #1d1d1b;
+   transform: scale(1.2,1.25);
+   margin-right: 19px;
+  
+   
+ 
+    
+}
+
+
+.pg8-right{
+    width: 52%;
+    height: 100%;
+    background-color: #c4bcb3;
+    
+}
+.pg8-right img{
+    width: 100%;
+    height: 100%;
+   padding: 0px 25px;
+    object-fit: cover;
+   
+}
+.pg9{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #c4bcb3;
+}
+.pg9-left img{
+    height: 300px;
+    width: 360px;
+    object-fit: cover;
+    margin-top:15px;
+    margin-left: 14px;
+    border:1px solid black;
+}
+.pg9-right h1{
+    font-size: 270px;
+    font-family: canopee;
+    letter-spacing: 5px;
+    font-weight: 800;
+    margin-right: 60px;
+    transform: scale(1.1,1.5);
+    margin-top:20px ;
+    margin-left: -700px;
+    color: #1d1d1b;
+    
+    
+    
+}
+@keyframes scrol {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-100% - 14px));
+    }
+    
+}
+.pg5:hover h1{
+ animation-play-state: paused;
+}
+
+
+
+
+ 
